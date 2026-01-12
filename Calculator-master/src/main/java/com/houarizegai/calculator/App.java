@@ -1,10 +1,6 @@
-package com.houarizegai.calculator;
-
-import com.houarizegai.calculator.ui.CalculatorUI;
-
-public class App {
-
+public class CalculatorApp {
     public static void main(String[] args) {
-        new CalculatorUI();
+        // code
     }
 }
+
