@@ -5,7 +5,7 @@ services:
     build: .
     container_name: calculator-java
     ports:
-      - "8080:8080"
+      - "9292:8080"
     volumes:
       - calculator-logs:/app/logs
     networks:
