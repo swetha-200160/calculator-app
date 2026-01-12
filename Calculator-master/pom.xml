@@ -18,6 +18,24 @@
     </properties>
 
     <build>
+    <dependencies>
+
+    <!-- Jackson Core -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.16.1</version>
+    </dependency>
+
+    <!-- Jackson YAML support -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.dataformat</groupId>
+        <artifactId>jackson-dataformat-yaml</artifactId>
+        <version>2.16.1</version>
+    </dependency>
+
+</dependencies>
+
         <plugins>
 
             <!-- Compiler plugin -->
